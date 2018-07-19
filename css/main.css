@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* clases reutilizables */
+.text-font-orbitron{
+  font-family: 'Orbitron', sans-serif;
+}
+.text-font-russoone{
+  font-family: 'Russo One', sans-serif;
+}
+.text-font-opensans{
+  font-family: 'Open Sans', sans-serif;
+}
+.outline-none{
+  outline: 0px !important;
+}
+.p-center{
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.bg-dark-purple{
+  background-color: #10030D;
+}
+.bg-black-color{
+  background-color: #181818;
+}
+/* navbar */
+.logo-page{
+  height: auto;
+  width: 15vh;
+}
+/* banner */
+.banner-purple{
+  background-image: url(../assets/images/purple.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vh;
+}
+.banner-box{
+  height: 30vh;
+  margin: auto;
+}
+.text-banner-title{
+  color: #f7f7f7;
+  line-height: 2em;
+}
+.text-banner-subtitle{
+  color: #D1B8E4;
+  font-size: 1.3em;
+}
+/* about me */
+.section-about-box{
+  padding: 5em 1.3em;
+}
+.line{
+  border: 1px solid #f7f7f7;
+  width: 10vh;
+}
+/* section: abilities */
+
+.section-abilitie-box{
+  padding: 5em 1.3em;
+}
+.abilitie-box{
+  background-color: rgba(107, 60, 101, 0.2);
+  border: 5px outset #c4c4c4;
+  border-radius: 5vh;
+  box-sizing: border-box;
+  height: 40vh;
+  width: 20vh;
+  padding: 2em;
+  margin-bottom: 2em !important;
+}
+.img-abilitie{
+  width: 15vh;
+  height: auto;
+  line-height: 2em;
+}
+.text-abilitie{
+  font-weight: 500;
+  font-size: 1.2em;
+}
+.pb-5em{
+  padding-bottom: 5em;
+}
+/* section why contact me */
+.section-why-contact-me{
+  background-image: url(../assets/images/pexel-purple.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  width: 100vh;
+  padding: 7em 0.7em;
+}
+.text-why{
+  width: 50%;
+  margin: auto;
+}
+/* contact-me */
+.section-contact-box{
+  background-color: #211550;
+  padding: 5em 1.3em;
+}
+.icon-contact{
+  font-size: 2em;
+}
+.text-contact{
+  font-size: 1.2em;
+}
+.d-list{
+  margin: auto;
+  width: 40vh;
+}
+.link-cv{
+  background-color: rgba(112, 12, 73, 0.5);
+  border: 4px outset #c4c4c4;
+  border-radius: 2vh;
+  display: inline-block;
+  padding: 0.7em 1.6em;
+  text-decoration: none !important;
+}
+.link-cv:hover{
+  background-color: #700C49;
+}
+.text-download{
+  font-size: 1.2em;
+}
